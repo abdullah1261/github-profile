@@ -1,0 +1,31 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .user-card a {
+    font-size: 16px;
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .user-card a:hover {
+    text-decoration: underline;
+  }
+  
