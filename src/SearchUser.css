@@ -1,30 +1,31 @@
-/* Search Component CSS */
-form {
-    display: flex;
-    margin-bottom: 20px;
+.container {
+    margin: 2rem auto;
+    max-width: 500px;
   }
   
   input[type="text"] {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    margin-right: 10px;
-    font-size: 16px;
-    flex-grow: 1;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
   }
   
   button[type="submit"] {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #28a745;
-    color: #fff;
+    background-color: #24292e;
+    color: white;
     border: none;
-    font-size: 16px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
   }
   
   button[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #6a737d;
   }
   
- 
+  .user-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
