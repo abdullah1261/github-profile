@@ -1,31 +1,35 @@
 .user-card {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
   
-  .user-card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
   
-  .user-card h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
+  .user-info {
+    padding: 1rem;
     text-align: center;
   }
   
-  .user-card a {
-    font-size: 16px;
-    color: #0366d6;
-    text-decoration: none;
+  .user-info h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
   }
   
-  .user-card a:hover {
-    text-decoration: underline;
+  .user-info a {
+    color: #0366d6;
+  }
+  
+  .user-avatar {
+    padding: 1rem;
+    text-align: center;
+  }
+  .user-avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
   }
   

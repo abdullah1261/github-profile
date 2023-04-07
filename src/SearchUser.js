@@ -22,14 +22,16 @@ const SearchUser = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Enter GitHub username" onChange={handleChange} />
         <button type="submit">Search</button>
       </form>
-      {results.map((user) => (
-        <UserProfile key={user.id} user={user} />
-      ))}
+      <div className="user-profiles">
+        {results.map((user) => (
+          <UserProfile key={user.id} user={user} />
+        ))}
+      </div>
     </div>
   );
 };
