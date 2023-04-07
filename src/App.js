@@ -7,7 +7,6 @@ const App = () => {
     <div className="App">
       <header>
         <h1>Github User Search</h1>
-        <h2>Assignment Q2</h2>
       </header>
       <SearchUser />
     </div>
